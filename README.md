@@ -1,1 +1,31 @@
 # TODO-APP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <div id="container">
+    <div class="controls">
+          <h1>My Todos</h1>
+          <p>version 1.0</p><br/>
+          <p><strong>Enter your tasks</strong></p>
+
+  <input type="text" id="input" placeholder="enter here"/>
+     <br>
+      <button type="button" id="add" onclick="addItem()">Add TODO</button><br/>
+        <button type="button" id="remove"onclick="removeItem()">Remove  Done TODO</button><br/>
+         <button type="button" id="remall" onclick="removeAll()">Remove All TODO</button>
+        </div>
+       <ul id="list">
+       
+   </ul>
+   </div>
+   <script src="todo.js"></script>
+   <h3>Designed by sai kiran patro</h3>
+</body>
+</html>
