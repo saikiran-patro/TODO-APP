@@ -27,6 +27,6 @@
    </div>
    
    <script src="todo.js"></script>
-   <h3>Designed by sai kiran patro</h3>
+ 
 </body>
 </html>
